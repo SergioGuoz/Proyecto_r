@@ -1,0 +1,16 @@
+
+1. Conociendo los datos
+
+```{r}
+
+#Importacion del ibrerias
+library(tidyverse)
+library(dplyr)
+library(ggplot2)
+
+#Lectura del archivo csv
+yearly <- read_csv('deaths_handwashing.csv')
+
+yearly
+
+```
